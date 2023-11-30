@@ -18,9 +18,13 @@ How can we predict a diabetic patient's readmission status?
 ## Notebook Outline
 1. **Overview**
 2. **Preprocessing**
+   
    a) Libraries Import
+   
    b) Data Import
+   
    c) Data Exploration
+   
    d) Data Cleaning
       - Missing Values
       - Multiple Encounters
@@ -37,17 +41,17 @@ How can we predict a diabetic patient's readmission status?
       - Feature Engineering - chi2
       - Data Balancing
       - End of Preprocessing
-3. **Distribution Plots**
-4. **Machine Learning Models**
+4. **Distribution Plots**
+5. **Machine Learning Models**
    a) Evaluating Models: Linear Regression, RandomForest, DecisionTree Classifiers
    b) Feature Importances and Coefficients
    c) Grid Search: Finding the best hyperparameters
    d) Re-evaluating the models
-5. **Regression Model Study**
+6. **Regression Model Study**
    a) Evaluating Models for regression
    b) Improving the data with PCA
    c) Finding hyperparameters for the best model (Gradient Boosting)
-6. **Conclusion**
+7. **Conclusion**
 
 ## Conclusion and Reflections
 We have studied this dataset from the perspective of Machine Learning Models and can conclude to good results with the information extracted.
