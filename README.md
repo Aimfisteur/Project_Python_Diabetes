@@ -1,5 +1,7 @@
 # Python for Data Analysis on Diabetes
-![Python Logo](Image for md/style.JPG)
+![Python Logo]([https://example.com/python-logo.png](https://raw.githubusercontent.com/Aimfisteur/Project_Python_Diabetes/main/Image%20for%20md/style.JPG))
+
+
 
 ## Project Team
 - Oscar Pastural
