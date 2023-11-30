@@ -1,4 +1,5 @@
 # Python for Data Analysis on Diabetes
+![Python Logo](Image for md/style.PNG)
 
 ## Project Team
 - Oscar Pastural
