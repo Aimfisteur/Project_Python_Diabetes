@@ -18,13 +18,9 @@ How can we predict a diabetic patient's readmission status?
 ## Notebook Outline
 1. **Overview**
 2. **Preprocessing**
-   
    - a) Libraries Import
-   
    - b) Data Import
-   
    - c) Data Exploration
-   
    - d) Data Cleaning
       - Missing Values
       - Multiple Encounters
