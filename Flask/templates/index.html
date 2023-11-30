@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- Make it compatible with mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction of readmission</title>
+    
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .login {
+            text-align: center;
+        }
+        
+        .btn {
+            margin-top: 20px;
+        }
+        
+        .prediction-text {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body style="background: #FFF;">
+    <div class="login">
+        <h1 style="color:Black;">Prediction of readmission</h1>
+
+        <!-- Action is where the data is sent. In our case, predict page.
+        If action is omitted, it is assumed to be the current page -->
+        <form action="{{ url_for('predict')}}" method="post">
+            <input type="text" name="percent_biking" placeholder="Time in hospital" required="required" /><br>
+            <input type="text" name="percent_smoking" placeholder="Age" required="required" /><p>
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict percent readmission with Diabetes</button>
+        </form>
+
+        <br>
+        <br>
+        <h4 class="prediction-text" style="color:Black;">{{ prediction_text }}</h4>
+    </div>
+</body>
+</html>
