@@ -67,7 +67,7 @@ In conclusion, while our study has made considerable progress in predicting pati
 **You can see the result of our 3 models, around 0.63 accuracy**
 
 
-## Regression Results for the sub-probelem
+## Regression Results for the sub-problem
 We observe that the Gradient Boosting approach appears to be the most effective, though it is closely trailed by other methods, with the exception of the Decision Tree, which performs notably worse. Regarding the most influential parameters, we can confidently assert that they are 'num_medications' and 'num_lab_procedures.' This correlation makes perfect sense, as a higher count of lab procedures is associated with a prolonged hospital stay. However, it is surprising to us that the number of medications is not ranked higher; this finding is unexpected.
 
 
