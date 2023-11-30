@@ -15,6 +15,9 @@ Analysis of clinical data from 130 US hospitals over ten years (1999-2008), focu
 ## Problem Definition
 How can we predict a diabetic patient's readmission status?
 
+## Sub-Problem Definition
+How long does a patient stay for the first time in the hospital ?
+
 ## Notebook Outline
 1. **Overview**
 2. **Preprocessing**
@@ -56,10 +59,10 @@ The results obtained allow us to make forecasts leaning more towards preventive 
 
 In conclusion, while our study has made considerable progress in predicting patient readmission, it also highlights the need for further research. This research should aim to uncover less visible variables affecting diabetes, improve measurement methods, and ultimately, guide us toward more effective and personalized healthcare solutions.
 
-## Regression Results
+## Regression Results for the sub-probelem
 We observe that the Gradient Boosting approach appears to be the most effective, though it is closely trailed by other methods, with the exception of the Decision Tree, which performs notably worse. Regarding the most influential parameters, we can confidently assert that they are 'num_medications' and 'num_lab_procedures.' This correlation makes perfect sense, as a higher count of lab procedures is associated with a prolonged hospital stay. However, it is surprising to us that the number of medications is not ranked higher; this finding is unexpected.
 
 ---
 
 **Acknowledgments**
-We thank everyone who contributed to this project and the advancement of diabetes research.
+We thank the school and the professor who taught us all of this and showed us how powerful Python is as a tool.
