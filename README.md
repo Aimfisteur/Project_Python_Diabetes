@@ -1,6 +1,5 @@
 # Python for Data Analysis on Diabetes
-![Python Logo]([https://example.com/python-logo.png](https://raw.githubusercontent.com/Aimfisteur/Project_Python_Diabetes/main/Image%20for%20md/style.JPG))
-
+![style](https://github.com/Aimfisteur/Project_Python_Diabetes/assets/81878873/1d32d65c-9cbe-48dc-b0b5-5f26230d861d)
 
 
 ## Project Team
